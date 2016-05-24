@@ -330,12 +330,6 @@
 		CB08F74A1CF35593008A6B1D /* UITextField+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Rx.swift"; sourceTree = "<group>"; };
 		CB08F74B1CF35593008A6B1D /* UITextView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Rx.swift"; sourceTree = "<group>"; };
 		CB08F74C1CF35593008A6B1D /* UIView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Rx.swift"; sourceTree = "<group>"; };
-		CB08F74E1CF35593008A6B1D /* NSButton+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSButton+Rx.swift"; sourceTree = "<group>"; };
-		CB08F74F1CF35593008A6B1D /* NSControl+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSControl+Rx.swift"; sourceTree = "<group>"; };
-		CB08F7501CF35593008A6B1D /* NSImageView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSImageView+Rx.swift"; sourceTree = "<group>"; };
-		CB08F7511CF35593008A6B1D /* NSSlider+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSSlider+Rx.swift"; sourceTree = "<group>"; };
-		CB08F7521CF35593008A6B1D /* NSTextField+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextField+Rx.swift"; sourceTree = "<group>"; };
-		CB08F7531CF35593008A6B1D /* NSView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+Rx.swift"; sourceTree = "<group>"; };
 		CB08F7541CF35593008A6B1D /* RxCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxCocoa.h; sourceTree = "<group>"; };
 		CB08F7561CF35593008A6B1D /* AnyObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyObserver.swift; sourceTree = "<group>"; };
 		CB08F7571CF35593008A6B1D /* Cancelable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancelable.swift; sourceTree = "<group>"; };
@@ -507,7 +501,6 @@
 				CB08F6EA1CF35593008A6B1D /* Common */,
 				CB08F71D1CF35593008A6B1D /* Info.plist */,
 				CB08F71E1CF35593008A6B1D /* iOS */,
-				CB08F74D1CF35593008A6B1D /* OSX */,
 				CB08F7541CF35593008A6B1D /* RxCocoa.h */,
 			);
 			name = RxCocoa;
@@ -685,19 +678,6 @@
 				CB08F7321CF35593008A6B1D /* RxTextViewDelegateProxy.swift */,
 			);
 			path = Proxies;
-			sourceTree = "<group>";
-		};
-		CB08F74D1CF35593008A6B1D /* OSX */ = {
-			isa = PBXGroup;
-			children = (
-				CB08F74E1CF35593008A6B1D /* NSButton+Rx.swift */,
-				CB08F74F1CF35593008A6B1D /* NSControl+Rx.swift */,
-				CB08F7501CF35593008A6B1D /* NSImageView+Rx.swift */,
-				CB08F7511CF35593008A6B1D /* NSSlider+Rx.swift */,
-				CB08F7521CF35593008A6B1D /* NSTextField+Rx.swift */,
-				CB08F7531CF35593008A6B1D /* NSView+Rx.swift */,
-			);
-			path = OSX;
 			sourceTree = "<group>";
 		};
 		CB08F7551CF35593008A6B1D /* RxSwift */ = {
@@ -965,8 +945,8 @@
 				CB7FA65D1CF3438F00901ECB /* LaunchScreen.storyboard */,
 				CB7FA6601CF3438F00901ECB /* Info.plist */,
 				CB08F8DA1CF35751008A6B1D /* RxSwift-iOS7-Bridging-Header.h */,
-				CB08F6E91CF35593008A6B1D /* RxCocoa */,
 				CB08F7551CF35593008A6B1D /* RxSwift */,
+				CB08F6E91CF35593008A6B1D /* RxCocoa */,
 			);
 			path = "RxSwift-iOS7";
 			sourceTree = "<group>";
