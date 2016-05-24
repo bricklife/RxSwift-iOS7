@@ -19,9 +19,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         textField.rx_text.asDriver()
-            .map { "'\($0)'" }
+            .map { "> \($0)" }
             .drive(label.rx_text)
             .addDisposableTo(disposeBag)
     }
 }
-
